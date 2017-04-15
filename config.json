@@ -1,0 +1,42 @@
+{
+  "binding": {
+    "max effect": 1.0,
+    "min effect": 0.05,
+    "sigma": 0.1,
+    "wt effect": 0.5,
+    "wt pctile": 75
+  },
+  "experiment": {
+    "depths": [
+      200
+    ],
+    "replicates": 5,
+    "rounds": 6
+  },
+  "growth": {
+    "max effect": 5.0,
+    "min effect": 0.05,
+    "sigma": 0.1,
+    "wt doublings": 2,
+    "wt effect": 1.0,
+    "wt pctile": 75
+  },
+  "noise": {
+    "jackpot": {
+      "mult high": 50,
+      "mult low": 50,
+      "pct high": 5,
+      "pct low": 5
+    },
+    "reperror": {
+      "freq": 0.1
+    }
+  },
+  "outdir": ".",
+  "population": {
+    "size": 10000000,
+    "starting counts sigma": 0.4,
+    "starting wt freq": 0.01,
+    "variants": 10000
+  }
+}
