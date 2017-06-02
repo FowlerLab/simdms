@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/88330039.svg)](https://zenodo.org/badge/latestdoi/88330039)
+
 simdms
 ======
 
